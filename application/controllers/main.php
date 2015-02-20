@@ -32,6 +32,10 @@ class Main extends CI_Controller {
                     $text .= $file.'<br />';
                 }
 
+                $this->sendmail->send($theme, $email, $text);
+                $text_to_admin = null;
+                $text_to_admin .= $text.'<br />ОТ '.$email;
+                $this->sendmail->send_to_admin($theme, $text_to_admin);
 
 
             }

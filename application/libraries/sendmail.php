@@ -35,12 +35,23 @@ class Sendmail extends PHPMailer
      * @param $name - имя, кому отправляется письмо
      * @param $message - тект письма
      */
-    public function send($subject, $email, $name, $message, $file = null)
+    public function send($subject, $email, $message, $file = null)
     {
 
         $this->From = $this->Username;
         $this->Subject = $subject;
-        $this->addAddress($email, $name);
+        $this->addAddress($email, 'Заказчик');
+        $this->Body = $message;
+        parent::send();
+
+    }
+
+    public function send_to_admin($subject, $message, $file = null)
+    {
+
+        $this->From = $this->Username;
+        $this->Subject = $subject;
+        $this->addAddress($this->Username, 'Администратор');
         $this->Body = $message;
         parent::send();
 
