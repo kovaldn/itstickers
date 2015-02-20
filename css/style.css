@@ -142,5 +142,12 @@ section {
 #jq-photolist2 {
 	display: none;
 }
+<<<<<<< HEAD
 li {
+=======
+
+.email-center {
+    display: block;
+    margin: 0 auto 10px;
+>>>>>>> c415bc576856787224a131afed4f1fc56a5c2478
 }
