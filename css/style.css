@@ -19,4 +19,17 @@
 
 .topmenu li:first-child {
 	border-right: none;
-};
+}
+
+.b-mainscreen,
+.b-mainscreen .title,
+.b-mainscreen .subtitle {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.b-mainscreen .title,
+.b-mainscreen .subtitle {
+	font-weight: bold;
+}
+
