@@ -1,7 +1,7 @@
 #mainscreen .logo {
-	height: 305px;
-	margin-bottom: 40px;
-	margin-top: 40px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 
 }
 #spisok {
@@ -107,7 +107,7 @@ section {
 }
 
 .b-mainscreen {
-	padding-bottom: 128px;
+	padding-bottom: 40px;
 }
 
 .b-mainscreen {
