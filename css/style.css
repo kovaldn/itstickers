@@ -1,3 +1,7 @@
+section {
+	border-bottom: 1px solid #333333;
+}
+
 .navbar-brand {
 	height: 100%;
 }
@@ -21,7 +25,19 @@
 	border-right: none;
 }
 
-.b-mainscreen,
+.b-mainscreen {
+	padding-bottom: 128px;
+}
+
+.b-mainscreen {
+	text-align: center;
+}
+
+.b-mainscreen img {
+	height: 128px;
+	width: auto;
+}
+
 .b-mainscreen .title,
 .b-mainscreen .subtitle {
 	text-align: center;
