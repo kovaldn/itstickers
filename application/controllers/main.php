@@ -16,17 +16,26 @@ class Main extends CI_Controller {
         if($this->is_post()){
 
             $files = $this->input->post('phototemplates');
+            $email = $this->input->post('email');
 
             if(is_array($files)){
 
-                $this->load->library('zip');
+                $real_url = null;
+                foreach($files as $file){
+                    $real_url[] = base_url().'img/stickers/'.$file;
+                }
 
-                $name = 'photo.jpg';
-                $data = base_url().'img/stickers/sticker1.jpg';
-                $this->zip->add_data($name, $data);
-                $this->zip->download('my_backup.zip');
+                $theme = "Поступил заказ";
+                $text = "Получен заказ на изображения:<br />";
+
+                foreach($real_url as $file){
+                    $text .= $file.'<br />';
+                }
+
+
 
             }
+
 
         }
 
