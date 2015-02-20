@@ -120,3 +120,75 @@ section {
     display: block;
     margin: 0 auto 10px;
 }
+
+.upload {
+    margin: auto;
+    width: 600px;
+}
+
+.upload input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 62px;
+    cursor: pointer;
+}
+
+.my-sticker {
+    padding-bottom: 30px;
+
+}
+
+.my-sticker h2 {
+    margin-bottom: 30px;
+}
+
+.upload-wrap {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 30px;
+}
+
+.upload-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.upload-left, .upload-right {
+    padding: 15px 0;
+    border: 1px solid black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.upload-left {
+    border-right: none;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.upload-right {
+    padding: 15px 30px;
+    float: right;
+    background: #42aaff;
+    color: #fff;
+}
+
+.upload-email, .upload-submit {
+    float: left;
+}
+
+.upload-email {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.submit {
+    width: 300px;
+}
