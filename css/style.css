@@ -115,3 +115,8 @@ section {
 #jq-photolist2 {
 	display: none;
 }
+
+.email-center {
+    display: block;
+    margin: 0 auto 10px;
+}
