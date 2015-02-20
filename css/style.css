@@ -32,6 +32,21 @@
 	margin-right: auto;
 }
 
+#spisok label {
+	width: 150px;
+	height: 150px;
+}
+
+#spisok input[type="checkbox"] {
+	display: none;
+}
+
+
+#spisok input[type="checkbox"]:checked + label {
+	border: 3px solid rgb(41, 225, 240);
+}
+
+
 section {
 	border-bottom: 1px solid #999999;
 }
