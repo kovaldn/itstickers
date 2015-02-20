@@ -1,0 +1,22 @@
+.navbar-brand {
+	height: 100%;
+}
+
+.container {
+	width: 1000px;
+}
+
+.topmenu {
+	margin-top: 35px;
+	margin-right: 100px;	
+}
+
+.topmenu li {
+	min-width: 170px;
+	border: 1px solid #333333;
+	text-align: center;
+}
+
+.topmenu li:first-child {
+	border-right: none;
+};
