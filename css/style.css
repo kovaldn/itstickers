@@ -1,5 +1,5 @@
 section {
-	border-bottom: 1px solid #333333;
+	border-bottom: 1px solid #999999;
 }
 
 .navbar-brand {
@@ -17,7 +17,7 @@ section {
 
 .topmenu li {
 	min-width: 170px;
-	border: 1px solid #333333;
+	border: 1px solid #999999;
 	text-align: center;
 }
 
