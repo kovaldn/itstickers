@@ -1,3 +1,26 @@
+
+#spisok {
+	margin: 0 auto;
+	width: 1000px;
+}
+#spisok ul li {
+
+	display: inline-block;
+}#spisok ul li img {
+	width: 100%;
+}
+#spisok input {
+	padding: 8px 100px 8px 100px;
+}
+#spisok ul {
+	padding: 0 7%;
+	text-align: justify;
+}
+#spisok ul  #end {
+	display: inline-block;
+	width: 100%;
+}
+
 section {
 	border-bottom: 1px solid #999999;
 }
@@ -48,4 +71,5 @@ section {
 .b-mainscreen .subtitle {
 	font-weight: bold;
 }
+
 
