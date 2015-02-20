@@ -10,112 +10,89 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <section id="mainscreen">
           <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Навигация</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="http://dummyimage.com/158x90" alt=""></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">              
-              <ul class="nav navbar-nav navbar-right topmenu">
-                <li><a href="#">Готовые</a></li>
-                <li><a href="#">Создать свою</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-          <section id="mainscreen">
-            <div class="container">
-              <div class="col-xs-8 col-xs-offset-2 b-mainscreen">
-                <h1 class="title">Наклейки для айтишников</h1>
-                <h2 class="subtitle">Выберите форму наклейки</h2>
-                <div class="col-xs-6">
-                  <img src="./img/type1.jpg" alt="" class="jq-photoline-switcher">
-                </div>
-                <div class="col-xs-6">
-                  <img src="./img/type2.jpg" alt="" class="jq-photoline-switcher">
-                </div>
+            <div class="col-xs-8 col-xs-offset-2 b-mainscreen">
+              <img src="./img/logo.png" alt="" class="logo">
+              <h2 class="title">Выберите форму наклейки</h2>
+              <div class="col-xs-6">
+                <img src="./img/type1.png" alt="" class="jq-photoline-switcher">
               </div>
-            
+              <div class="col-xs-6">
+                <img src="./img/type2.png" alt="" class="jq-photoline-switcher">
+              </div>
             </div>
-          </section>
-
-
-
-          <section id="photoline">
-            <div id="spisok">
-              <form method="POST" action="photo.php">
-                <ul id="jq-photolist1">
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker1" id="photoline-item1">
-                      <label for="photoline-item1"><img src="./img/stickers/sticker1.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker2" id="photoline-item2">
-                      <label for="photoline-item2"><img src="./img/stickers/sticker2.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker3" id="photoline-item3">
-                      <label for="photoline-item3"><img src="./img/stickers/sticker3.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker4" id="photoline-item4">
-                      <label for="photoline-item4"><img src="./img/stickers/sticker4.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker5" id="photoline-item5">
-                      <label for="photoline-item5"><img src="./img/stickers/sticker5.png"></label>
-                  </li>
-                  <li id="end">
-                    <div></div>
-                  </li>
-                </ul>
-                <ul id="jq-photolist2">
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker6" id="photoline-item1">
-                      <label for="photoline-item1"><img src="./img/stickers/sticker6.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker7" id="photoline-item2">
-                      <label for="photoline-item2"><img src="./img/stickers/sticker7.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker8" id="photoline-item3">
-                      <label for="photoline-item3"><img src="./img/stickers/sticker8.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker9" id="photoline-item4">
-                      <label for="photoline-item4"><img src="./img/stickers/sticker9.png"></label>
-                  </li>
-                  <li>
-                      <input type="checkbox" name="phototemplates[]" value="sticker10" id="photoline-item5">
-                      <label for="photoline-item5"><img src="./img/stickers/sticker10.png"></label>
-                  </li>
-                  <li id="end">
-                    <div></div>
-                  </li>
-                </ul>
-                <input type="submit" value="Загрузить">
-              </form>
-            </div>
-          </section>
-          <div id="footer">
-            <p>&copy;2015 itstickers.ru</p>
-          </div>
           
+          </div>
+        </section>
 
 
 
+        <section id="photoline">
+          <div id="spisok">
+            <form method="POST" action="photo.php">
+              <ul id="jq-photolist1">
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker1" id="photoline-item1">
+                    <label for="photoline-item1"><img src="./img/stickers/sticker1.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker2" id="photoline-item2">
+                    <label for="photoline-item2"><img src="./img/stickers/sticker2.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker3" id="photoline-item3">
+                    <label for="photoline-item3"><img src="./img/stickers/sticker3.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker4" id="photoline-item4">
+                    <label for="photoline-item4"><img src="./img/stickers/sticker4.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker5" id="photoline-item5">
+                    <label for="photoline-item5"><img src="./img/stickers/sticker5.png"></label>
+                </li>
+                <li id="end">
+                  <div></div>
+                </li>
+              </ul>
+              <ul id="jq-photolist2">
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker6" id="photoline-item1">
+                    <label for="photoline-item1"><img src="./img/stickers/sticker6.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker7" id="photoline-item2">
+                    <label for="photoline-item2"><img src="./img/stickers/sticker7.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker8" id="photoline-item3">
+                    <label for="photoline-item3"><img src="./img/stickers/sticker8.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker9" id="photoline-item4">
+                    <label for="photoline-item4"><img src="./img/stickers/sticker9.png"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="phototemplates[]" value="sticker10" id="photoline-item5">
+                    <label for="photoline-item5"><img src="./img/stickers/sticker10.png"></label>
+                </li>
+                <li id="end">
+                  <div></div>
+                </li>
+              </ul>
+              <input type="submit" value="Загрузить">
+            </form>
+          </div>
+        </section>
+        <div id="footer">
+          <p>&copy;2015 itstickers.ru</p>
+        </div>
         
+
+
+
+      
         <script src="js/jquery-1.11.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
