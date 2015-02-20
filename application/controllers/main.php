@@ -2,9 +2,16 @@
 
 class Main extends CI_Controller {
 
+    protected $data = array();
+
+
     public function index(){
+
+        $this->load->view('main/index');
 
 
     }
+
+
 
 }
