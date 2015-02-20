@@ -1,3 +1,4 @@
+
 #spisok {
 	margin: 0 auto;
 	width: 1000px;
@@ -19,3 +20,56 @@
 	display: inline-block;
 	width: 100%;
 }
+
+section {
+	border-bottom: 1px solid #999999;
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+.container {
+	width: 1000px;
+}
+
+.topmenu {
+	margin-top: 35px;
+	margin-right: 100px;	
+}
+
+.topmenu li {
+	min-width: 170px;
+	border: 1px solid #999999;
+	text-align: center;
+}
+
+.topmenu li:first-child {
+	border-right: none;
+}
+
+.b-mainscreen {
+	padding-bottom: 128px;
+}
+
+.b-mainscreen {
+	text-align: center;
+}
+
+.b-mainscreen img {
+	height: 128px;
+	width: auto;
+}
+
+.b-mainscreen .title,
+.b-mainscreen .subtitle {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.b-mainscreen .title,
+.b-mainscreen .subtitle {
+	font-weight: bold;
+}
+
+
